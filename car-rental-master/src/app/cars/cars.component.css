@@ -1,0 +1,44 @@
+body {
+
+	  font-size: 19px;
+	--background-image: url(C:\Users\alrib\git\angular\car-rental-master\src\app\cars\garage.jpg);
+	background-repeat: no-repeat, repeat;
+}
+
+ul {
+
+	display: inline-blok;
+}
+
+ul a{
+	text-decoration: none;
+	color: black;
+	padding :5px 20px;
+	border: 2px solid blue;
+	transition: 0.2s ease;
+}
+
+ul a:hover{
+	background-color: #9af;
+	color: #000;
+}
+
+img {
+  border-radius: 8px;
+}
+
+div.polaroid {
+  width: 25%;
+  background-color: white;
+  box-shadow: 0 4px 2px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-bottom: 50px;
+}
+
+div.container {
+  text-align: center;
+  padding: 1px 2px;
+}
+
+p {
+	text-align: center;
+}

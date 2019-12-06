@@ -1,0 +1,33 @@
+_<!DOCTYPE html>
+<html>
+<head>
+
+</head>
+<body>
+
+<h2>Cars to be rented </h2>
+<div *ngFor="let car of cars">
+
+<div class="polaroid">
+  <img src="garage.jpg" alt="Norther Lights" style="width:100%">
+  <div class="container"> 
+  <h3>
+    <table>
+        <ul><a>{{car.brand}}</a></ul> <ul><a [routerLink]="'/cars/' + car.plateNumber">Details</a></ul>
+
+    </table>
+  </h3>
+  
+  </div>
+</div>
+
+</div>
+
+<br>
+
+</body>
+</html>
+
+
+
+
